@@ -1,6 +1,5 @@
-provider "aws" {
-  region = "us-east-1"
-}
+
+# This resource creates an EC2 instance
 
 resource "aws_instance" "example" {
   ami           = "ami-0c3389a4fa5bddaad"
